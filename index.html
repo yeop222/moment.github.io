@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body class="sizecoverr">
+    <header id="clock"></header>
+    <div id="say-hello">
+        <form class="hidden" id="login">
+            <input required maxlength="15" type="text"
+            placeholder="What's your name?">
+            <input type="submit" value="Log In">
+        </form>
+        <h1 class="hidden" id="greeting"></h1>
+    </div>
+    <div id="quote"> 
+        <span></span>
+        <br>
+        <span></span>
+    </div>
+    <div id="todobox">
+        <form id="todo-form">
+            <input id="kimchi" type="text" placeholder="What will you do?" required>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <div id="information">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+   <script src="api.js"></script>
+    <script src="todo.js"></script>
+    <script src="quotes.js"></script>
+    <script src="bg.js"></script>
+    <script src="name.js"></script>
+    <script src="time.js"></script>
+</body>
+</html>
